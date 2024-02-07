@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with new CSS</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <form>
+
+            <div>
+                <label for="name"><b>Username</b></label>
+                <input id="name" type="text">
+            </div>
+
+            <div>
+                <label for="password"><b>Password</b></label>
+                <input id="password" type="password">
+            </div>
+
+            <fieldset>
+                <legend><b>Do you have any previous experience?</b></legend>
+                <input id="yes" name="grid" type="radio" value="yes">
+                <label for="yes">Yes</label>
+                <input id="no" name="grid" type="radio" value="no">
+                <label for="no">No</label>
+             </fieldset>
+
+            <div>
+            <label for="comp"><b>Job Field</b></label>
+                <select id="comp"> 
+                    <option value="Tech">Tech</option>
+                    <option value="Management">Management</option>
+                    <option value="Arts">Arts</option>
+                    <option value="Engineering">Engineering</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+        <div class="full-with">
+            <button type="submit"><b>Send Response</b></button>
+            <button type="reset"><b>Clear Form</b></button>
+        </div>
+
+        </form>
+    </main>
+</body>
+</html>
